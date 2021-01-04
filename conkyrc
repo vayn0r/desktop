@@ -71,6 +71,6 @@ ${color1}eth0 Up: ${color}${upspeedf eth0} ${color}kB/s ${alignr}${color1}Total:
 ${color2}${font SonySketchEF:bold:size=14}WEATHER ${hr 2}${font}
 ${voffset 8}${color1}${execi 300 ~/.conky/conky-rss.sh https://myweatherrssfeed.com/weather.xml 11 2}
 
-${color5}${font Digital:bold:size=18}${time %I:%M:%S}${alignr}${color}${font SonySketchEF:bold:size=18}${time %d %B}, ${time %Y}
+${color5}${font Digital:bold:size=14}${time %I:%M:%S}${alignr}${color}${font SonySketchEF:bold:size=14}${time %d %B}, ${time %Y}
 #${color4}${font Digital:bold:size=20}${time %r}${alignr}${color5}${font SonySketchEF:bold:size=18}${time %d %B}, ${color6}${time %Y}
 ]]
