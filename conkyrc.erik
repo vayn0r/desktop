@@ -72,5 +72,5 @@ ${color1}eth0 Down: ${color}${downspeedf eth0} ${color}kB/s ${alignr}${color1}To
 ${color1}eth0 Up: ${color}${upspeedf eth0} ${color}kB/s ${alignr}${color1}Total: ${color}${totalup eth0}
 
 ${color2}${hr 2}
-${voffset 6}${color1}${font Terminal:regular:size=16}${execpi 60 DAY=`date +%_d`; cal | sed s/"\(^\|[^0-9]\)$DAY"'\b'/'\1${color3}'"$DAY"'$color1'/}
+${voffset 6}${color1}${font NotoSansMono:regular:size=16}${execpi 60 DAY=`date +%_d`; cal | sed s/"\(^\|[^0-9]\)$DAY"'\b'/'\1${color3}'"$DAY"'$color1'/}
 ]]
